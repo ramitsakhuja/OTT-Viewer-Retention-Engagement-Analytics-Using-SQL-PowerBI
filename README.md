@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project analyzes OTT viewer engagement, retention behavior, churn patterns, and platform performance using SQL and Power BI.
+
 The workflow includes database normalization, advanced SQL analytics, KPI engineering, and interactive dashboard development to generate business insights and growth recommendations for OTT platforms.
 
 ---

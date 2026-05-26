@@ -1,18 +1,21 @@
-# OTT Viewer Retention & Engagement Analytics using SQL
+# OTT Viewer Retention & Engagement Analytics | SQL + Power BI
 
 ## Project Overview
 
-This project analyzes OTT viewer engagement, retention behavior, and churn patterns using advanced SQL techniques on streaming platform data. The analysis includes platform performance, genre retention, viewer drop-off trends, engagement KPIs, and behavioral segmentation to generate business insights and growth recommendations.
+This project analyzes OTT viewer engagement, retention behavior, churn patterns, and platform performance using SQL and Power BI.
+
+The workflow includes database normalization, advanced SQL analytics, KPI engineering, and interactive dashboard development to generate business insights and growth recommendations for OTT platforms.
 
 ---
 
 ## Objectives
 
 * Analyze viewer engagement across OTT platforms
-* Identify high drop-off and churn patterns
+* Identify churn patterns and viewer drop-off behavior
 * Evaluate genre-wise retention performance
-* Rank top-performing shows using SQL window functions
-* Generate business insights for OTT growth strategies
+* Rank top-performing shows using SQL analytics
+* Build interactive dashboards for business intelligence
+* Generate actionable insights for OTT growth strategies
 
 ---
 
@@ -20,12 +23,14 @@ This project analyzes OTT viewer engagement, retention behavior, and churn patte
 
 * MySQL
 * SQL
+* Power BI
+* Excel
 
 ---
 
 ## Database Design
 
-The project uses a normalized relational database structure:
+The project follows a normalized relational database design.
 
 ### Tables Used
 
@@ -59,6 +64,26 @@ The project uses a normalized relational database structure:
 
 ---
 
+## Power BI Dashboard Features
+
+### KPI Cards
+
+* Total Sessions
+* Average Watch Percentage
+* Drop-off Rate
+* High Risk Sessions
+
+### Dashboard Analytics
+
+* Platform-wise Viewer Drop-off Analysis
+* Genre-wise Viewer Retention Analysis
+* Top Engaging Shows
+* Retention Risk Distribution
+* Episode Duration vs Viewer Engagement
+* Interactive Slicers and Filtering
+
+---
+
 ## Business Questions Solved
 
 * Which OTT platforms have the highest viewer drop-off?
@@ -73,17 +98,23 @@ The project uses a normalized relational database structure:
 
 ## Key Insights
 
-* Comedy content showed the strongest viewer retention.
+* Comedy content demonstrated the strongest viewer retention.
 * Certain OTT platforms experienced significantly higher churn rates.
-* Highly engaging shows demonstrated near-zero drop-off.
-* Medium-length episodes achieved better watch completion rates.
-* High cognitive load content increased viewer abandonment.
+* Highly engaging shows showed near-zero viewer drop-off.
+* Medium-length episodes achieved stronger watch completion rates.
+* High cognitive load content increased abandonment behavior.
+
+---
+
+## Dashboard Preview
+
+![Dashboard Screenshot](Ott Analytics Dashboard.pdf)
 
 ---
 
 ## Business Impact
 
-The project demonstrates how SQL can be used to:
+This project demonstrates how analytics can help:
 
 * Improve retention strategies
 * Reduce viewer churn
@@ -93,15 +124,16 @@ The project demonstrates how SQL can be used to:
 
 ---
 
-
 ## Resume Skills Demonstrated
 
 * SQL Analytics
+* Power BI
 * Product Analytics
 * Business Intelligence
-* KPI Analysis
+* KPI Engineering
 * Churn Analysis
 * Data Modeling
+* Data Visualization
 * Relational Database Design
 * Viewer Behavior Analytics
 
@@ -109,4 +141,8 @@ The project demonstrates how SQL can be used to:
 
 ## Author
 
-Ramit Sakhuja
+**Ramit Sakhuja**
+
+LinkedIn: https://www.linkedin.com/in/ramit-sakhuja/
+
+GitHub: https://github.com/ramitsakhuja/OTT-Viewer-Retention-Engagement-Analytics-Using-SQL-PowerBI.git
